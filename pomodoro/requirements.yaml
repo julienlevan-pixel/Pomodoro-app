@@ -1,0 +1,11 @@
+packages:
+  "framer-motion": "For smooth layout animations and timer transitions"
+  "canvas-confetti": "For visual delight when completing a pomodoro session"
+  "@types/canvas-confetti": "Type definitions for canvas-confetti"
+
+images: []
+
+notes:
+  - No backend required; all state is managed locally in the browser
+  - Web Audio API used for notification sounds
+  - Page title updates dynamically with the remaining time
