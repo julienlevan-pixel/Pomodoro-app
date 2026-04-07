@@ -59,6 +59,13 @@ export default function Home() {
 
         {/* Timer Display Card */}
         <div className="relative flex flex-col items-center justify-center w-full max-w-md aspect-[4/3] mb-12 group">
+
+          <img
+            src="/tomato-bg.svg"
+            alt="Tomate décorative"
+            className="absolute inset-0 w-full h-full object-contain opacity-35 pointer-events-none select-none"
+            aria-hidden="true"
+          />
           
           {/* Subtle linear progress bar positioned at top of timer */}
           <div className="absolute top-0 left-8 right-8 h-1 bg-black/5 dark:bg-white/10 rounded-full overflow-hidden">

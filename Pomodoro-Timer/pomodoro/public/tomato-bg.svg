@@ -1,0 +1,25 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="tomatoBody" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 320) rotate(43) scale(620)">
+      <stop offset="0" stop-color="#FF8B8B"/>
+      <stop offset="0.45" stop-color="#F04444"/>
+      <stop offset="1" stop-color="#BD1C1C"/>
+    </radialGradient>
+    <radialGradient id="shine" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 250) rotate(45) scale(220)">
+      <stop offset="0" stop-color="#FFD8D8" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#FFD8D8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurShadow" x="90" y="160" width="720" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="450" cy="505" rx="260" ry="190" fill="#6E0D0D" fill-opacity="0.3" filter="url(#blurShadow)"/>
+  <ellipse cx="450" cy="430" rx="305" ry="275" fill="url(#tomatoBody)"/>
+  <ellipse cx="350" cy="320" rx="120" ry="100" fill="url(#shine)"/>
+
+  <path d="M452 155C465 180 495 191 522 189C507 208 504 235 514 259C487 244 456 247 431 264C433 235 418 207 393 191C418 190 442 178 452 155Z" fill="#2B8A3E"/>
+  <path d="M452 160C433 173 410 180 389 182C409 196 423 222 426 248C444 233 465 226 489 228C481 208 486 184 498 168C481 172 466 168 452 160Z" fill="#3AA74E"/>
+  <path d="M398 180C380 171 364 163 354 149C356 172 352 188 338 201C360 198 377 202 392 215C391 203 393 190 398 180Z" fill="#2F9A44"/>
+  <path d="M506 176C526 172 544 166 557 153C553 178 557 196 572 213C548 208 528 212 510 227C513 211 512 194 506 176Z" fill="#2F9A44"/>
+</svg>
